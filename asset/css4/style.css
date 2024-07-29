@@ -1,0 +1,502 @@
+.header {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  width: 100%;
+  z-index:1000;
+
+
+}
+.header .inner-logo img {
+  width: 60% ;
+  height: 100%;
+}
+
+
+.header .container .inner-list ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+
+  padding: 0;
+}
+.container .inner-list ul li {
+  margin-left: 5%;
+}
+
+.container .inner-list ul li a {
+  text-decoration: none;
+  color: white;
+ 
+  
+  
+}
+.header .inner-list ul li a:hover
+{color:aqua;}
+.header .row {
+  align-items: center;
+}
+.header .account a i {
+  color: white;
+  font-size: 30px;
+}
+.header .account
+{margin-left:100px;}
+.sectionone 
+{  
+
+   background-image: url(../images/masthead-d.jpg);
+   background-repeat:no-repeat;
+   height:100vh;
+   background-size:100%;
+   position:relative;
+
+}
+
+.sectionone .inner-title
+{position:absolute;
+ top:20vw;
+ left:15vw;
+ 
+ }
+ .section-two
+ {top:0;}
+
+ .section-two .inner-wrap
+ {position:relative;
+ 
+  height:400px;}
+ 
+ 
+
+
+.section-two .inner-title
+{position:absolute;
+font-size:30px;
+top:100px;
+left:37%;
+
+}
+.section-two .inner-description 
+{position:absolute;
+top:200px;
+left:15%;
+}
+
+
+ .section-two .inner-description 
+ {
+   top:200px;
+   left:15%;
+  }
+  /*section three*/
+  .section-three .topthree
+  {background-color:rgb(210, 202, 202);
+   padding:20px;
+  }
+  .section-three .row
+  {flex-wrap:nowrap;}
+  .section-three a
+  {font-size:15px;
+   text-decoration:none;
+   
+   color:black;
+   font-weight:400;}
+   .section-three .col-xl-2
+   {text-align:center ;}
+   
+   .section-three .col-xl-3
+   {text-align:center ;}
+   .section-four .image img 
+   {width: 100%; 
+    height: auto;}
+    /*section four*/
+    .section-four .wrapper
+{max-width:100%;
+}
+.section-four .part
+{position:relative;}
+.section-four .title
+{position:absolute;
+ left:5%;
+ top:220px;
+ font-size:30px;}
+ .section-four .description
+{position:absolute;
+ left:5%;
+ top:300px;
+ font-size:13px;}
+ .section-four .col-xl-6
+ {padding:0;}
+/*section five*/
+ .section-five .image img 
+ {width: 102%;
+ 
+  height: auto;}
+.section-five  .wrapper
+{max-width:100%;
+}
+.section-five  .part
+{position:relative;}
+.section-five  .title
+{position:absolute;
+left:30px;
+top:220px;
+font-size:30px;}
+.section-five  .description
+{position:absolute;
+left:30px;
+top:300px;
+font-size:13px;}
+.section-five .col-xl-6
+{padding:0;}
+/*section six*/
+.section-six .image img 
+{width: 100%;
+
+ height: auto;}
+.section-six  .wrapper
+{max-width:100%;
+}
+.section-six  .part
+{position:relative;}
+.section-six  .title
+{position:absolute;
+left:30px;
+top:220px;
+font-size:30px;}
+.section-six  .description
+{position:absolute;
+left:30px;
+top:300px;
+font-size:13px;}
+.section-six .col-xl-6
+{padding:0;}
+/*section seven*/
+.section-seven .image img 
+{width: 102%;
+
+ height: auto;}
+.section-seven  .wrapper
+{max-width:100%;
+}
+.section-seven   .part
+{position:relative;}
+.section-seven  .title
+{position:absolute;
+left:30px;
+top:220px;
+font-size:30px;}
+.section-seven  .description
+{position:absolute;
+left:30px;
+top:300px;
+font-size:13px;}
+.section-seven .col-xl-6
+{padding:0;}
+/*section-eight*/
+.section-eight
+{background-color:rgb(255, 252, 252);
+ padding-bottom:5%;}
+.contain
+{margin-left:13%;
+ margin-right:10%;}
+.ron
+{display:flex;}
+.block1 
+{position:relative;
+ }
+.block2
+{position:relative;
+ }
+.block3 
+{position:relative;
+ }
+.block1 .title1 p
+{color:white;
+ font-size:1.7vw;}
+.block2 .title3 p
+{color:white;
+  font-size:1.7vw;}
+.block3 .title5 p
+{color:white;
+  font-size:1.7vw;}
+  .block1 .title2 p
+{color:white;
+  font-weight: 600;
+  font-size:1.2vw;
+}
+.block2 .title4 p
+{color:white;
+  font-weight: 600;
+  font-size:1.2vw;
+ }
+.block3 .title6 p
+{color:white;
+ font-weight: 600;
+ font-size:1.2vw;
+  }
+.title1 
+{position:absolute;
+ right:25%;
+ top:10%;}
+ .title2 
+ {position:absolute;
+  right:37%;
+  bottom:0px;}
+  .title3
+{position:absolute;
+ right:35%;
+ top:10%;}
+ .title4
+ {position:absolute;
+  right:43%;
+  bottom:0px;}
+  .title5
+{position:absolute;
+ right:35%;
+ top:10%;}
+ .title6
+ {position:absolute;
+  right:47%;
+  bottom:0px;}
+  
+.section-eight a
+{text-decoration:none;}
+/*section-nine*/
+.section-nine
+{background-color:black;}
+.section-nine .bao
+{display:flex;
+ padding-left:15%;
+ padding-right:20%;}
+.section-nine ul li
+{list-style-type:none;
+ }
+ .section-nine ul li a
+ {color:white;
+ text-decoration:none;
+ font-size:90%;}
+.section-nine li a:hover
+{color:aqua;}
+.buy 
+{ padding-top:5%;
+  
+ }
+.discover
+{padding-top:5%;
+  margin-left:10%;}
+.own
+{padding-top:5%;
+  margin-left:10%;}
+.contact
+{padding-top:5%;
+  margin-left:10%;}
+.set
+{display:flex;
+ align-items:center;
+}
+/*responsive*/
+/*Chỉnh sửa hiện ra phần 3 gạch của menu ở tiêu đề header*/
+@media only screen and (min-width: 1201px) {
+  .menulist {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .account,
+  .inner-list {
+    display: none;
+  }
+  .menulist {
+    display: block;
+    color: white;
+  }
+}
+/* khi màn hình nhỏ đi , phần mô tả của các hình ảnh lớn sẽ biến mất*/
+@media only screen and (max-width: 991.9px)
+{.section-four .part
+ {display: none;}
+ .section-five .part
+ {display: none;}
+ .section-six .part
+ {display: none;}
+ .section-seven .part
+ {display: none;}
+ .de
+ {margin-right:0px;}
+}
+/*Chỉnh phần tiêu đề the story of Lexus*/
+@media only screen and (    636.9px<= width <=767.9px)
+{.section-two .inner-title
+  {position:absolute;
+  font-size:30px;
+  top:100px;
+  left:29%;
+  
+  }}
+  @media only screen and (  532px<=width <=636.8px)
+{.section-two .inner-title
+  {position:absolute;
+  font-size:30px;
+  top:100px;
+  left:24%;
+  
+  }}
+  @media only screen and (  436px<= width <=531.9px)
+  {.section-two .inner-title
+    {position:absolute;
+    font-size:30px;
+    top:100px;
+    left:20%;
+    
+    }}
+    @media only screen and (width<=435.9px )
+    {.section-two .inner-title
+      {position:absolute;
+      font-size:30px;
+      top:100px;
+      left:13%;
+      
+      }}
+/* chỉnh sửa phần nội dung bên dưới phần tiêu đề the story of Lexus*/
+@media only screen and (  width <=521.9px)
+{.section-two
+  {margin-bottom:15%;}}
+  /* Chỉnh sửa phần OUR VISION OMOTENASHI*/
+  @media only screen and (  width <=789.9px)
+  {.section-three
+     {display:none;}
+
+  }
+/*Chỉnh sửa phần 3 ảnh gần đoạn cuối*/
+
+@media only screen and (max-width: 1019.9px)
+{.section-nine .bao
+  {display: none;}
+  .bao2
+  {display: block;}
+  .flex1
+  {margin-left:5%;}
+ 
+  .flex2 
+  { display:flex;
+    flex-direction:column;
+    margin-left:50%;}
+  
+  .picture-block2
+  {display: block;}
+ .picture-block
+  {display: none;}
+  .title1 
+{position:absolute;
+ right:32%;
+ top:10%;}
+ .title2 
+ {position:absolute;
+  right:32%;
+  bottom:0px;}
+  .title3
+{position:absolute;
+ right:40%;
+ top:10%;}
+ .title4
+ {position:absolute;
+  right:45%;
+  bottom:0px;}
+  .title5
+{position:absolute;
+ right:40%;
+ top:10%;}
+ .title6
+ {position:absolute;
+  right:40%;
+  bottom:0px;}
+  .block1 .title1 p
+  {color:white;
+   font-size:3vw;}
+  .block2 .title3 p
+  {color:white;
+    font-size:3vw;}
+  .block3 .title5 p
+  {color:white;
+    font-size:3vw;}
+    .block1 .title2 p
+  {color:white;
+    font-weight: 600;
+    font-size:3vw;
+  }
+  .block2 .title4 p
+  {color:white;
+    font-weight: 600;
+    font-size:3vw;
+   }
+  .block3 .title6 p
+  {color:white;
+   font-weight: 600;
+   font-size:3vw;
+    }
+  }
+  @media only screen and (min-width: 1020px)
+  {.picture-block2
+     {display: none;}
+  
+   
+    .bao2
+    {display: none;}
+    }
+ 
+
+/*Chỉnh sửa logo lexus*/
+@media only screen and (  377px <= width <=769.9px)
+{.header .inner-logo img {
+  width: 100% ;
+  height: 100%;}}
+  @media only screen and ( width  <=376.9px)
+{.header .inner-logo img {
+  width: 250% ;
+  height: 250%;}}
+/*Chỉnh sửa phần cuối BUY DISCOVER, etc*/
+@media only screen and (max-width: 575.9px)
+{.flex2
+ {display:none;}}
+/*Chỉnh sửa phần REFINE YOUR DRIVE*/
+@media only screen and (  538px<= width <=676px)
+{.tutien
+   {font-size:2vw;}}
+@media only screen and (  width <=537.9px)
+{.tutien
+   {font-size:1.5vw;}}
+   @media only screen and (width <=426.9px)
+   {.tutien3
+      {display:none;}}
+/* Chỉnh sửa phần 4 ảnh nội dung*/
+
+
+@media only screen and (  width <=420px)
+{.section-four .image img 
+  {width: 105%; 
+   height: auto;}
+   .section-five .image img 
+   {width: 105%; 
+    height: auto;}
+    .section-six .image img 
+  {width: 105%; 
+   height: auto;}
+   .section-seven .image img 
+   {width: 105%; 
+    height: auto;}
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+

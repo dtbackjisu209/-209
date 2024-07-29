@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../../../fadfs"
+		},
+		{
+			"path": "C:/28TECH CODE"
+		}
+	],
+	"settings": {},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": []
+	}
+}
